@@ -1,0 +1,32 @@
+{
+  "version": "2.0.35",
+  "project": {
+    "name": "EZCorp-Fraim"
+  },
+  "git": {
+    "defaultBranch": "master",
+    "repoOwner": "mathursrus",
+    "repoName": "EZCorp-Fraim"
+  },
+  "customizations": {
+    "workflowsPath": ".fraim/workflows"
+  },
+  "persona": {
+    "name": "AI Agent",
+    "voice": "Helpful and precise.",
+    "emailSignature": "Powered by FRAIM",
+    "displayNamePattern": "{executiveName}'s Assistant"
+  },
+  "marketing": {
+    "newsletterTitle": "Product Update",
+    "newsletterCtaText": "Learn More",
+    "newsletterUrl": "",
+    "websiteUrl": "",
+    "chatUrl": ""
+  },
+  "database": {
+    "identityCollection": "Identity",
+    "tokensCollection": "Tokens",
+    "executiveCollection": "Executive"
+  }
+}
