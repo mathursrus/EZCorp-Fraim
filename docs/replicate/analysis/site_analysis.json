@@ -1,0 +1,66 @@
+{
+  "site_url": "https://shop.ezpawn.com/collections/all",
+  "analysis_date": "2025-01-18",
+  "page_title": "Pre-owned Brand Merchandise for Online Purchase | EZPAWN",
+  "technology_stack": {
+    "platform": "Shopify",
+    "frontend_framework": "Liquid templating",
+    "css_framework": "Custom CSS with responsive design",
+    "javascript": "Vanilla JS with third-party integrations",
+    "analytics": ["Google Analytics", "Facebook Pixel", "Microsoft Clarity"],
+    "payment_processing": "Shopify Payments",
+    "search_api": "https://miranda-api.wizsearch.in/v1/products/filter"
+  },
+  "key_features": {
+    "location_based_filtering": {
+      "description": "Products filtered by store locations across multiple states",
+      "implementation": "ZIP code input with radius selection (10-60 miles)",
+      "states_supported": ["texas", "florida", "colorado", "oklahoma", "nevada", "illinois", "indiana", "tennessee", "arizona", "minnesota", "iowa", "alabama", "utah", "oregon", "wisconsin", "pennsylvania", "arkansas", "mississippi"]
+    },
+    "advanced_filtering": {
+      "categories": ["Electronics", "Tools & Garden", "Shoes", "Drills and Drivers", "Gaming Consoles", "Purses & Handbags", "Musical Gear", "Laptops", "Sunglasses", "Smart Watches", "Rings", "Tablets", "Chains", "Pendants / Lockets", "Bracelets"],
+      "price_range": "$0.00 - $29,000.00",
+      "shoe_sizes": "Extensive size options including youth, adult, and specialty sizes",
+      "location_filter": "Store-specific inventory filtering"
+    },
+    "product_display": {
+      "view_modes": ["grid", "list"],
+      "sorting_options": "Multiple sort criteria available",
+      "product_count_display": "Shows item count per category and location"
+    }
+  },
+  "navigation_structure": {
+    "header": {
+      "logo": "EZPAWN",
+      "search_bar": "Prominent search functionality",
+      "account_login": "My account link",
+      "shopping_cart": "Cart with item count",
+      "family_brands": ["Value Pawn & Jewelry", "USA Pawn", "Cash Pawn", "Easy Cash Pawn"]
+    },
+    "sidebar_filters": {
+      "shop_by_locations": "ZIP code and radius-based filtering",
+      "location_list": "Extensive list of store locations with product counts",
+      "categories": "Product category filtering with counts",
+      "price_range": "Dual slider for price filtering",
+      "shoe_size": "Comprehensive size filtering",
+      "states": "State-based filtering"
+    }
+  },
+  "unique_business_model": {
+    "description": "Pawn shop chain with online presence",
+    "key_differentiators": [
+      "Location-based inventory (must pick up at store)",
+      "Pre-owned merchandise focus",
+      "Quality grading process",
+      "Extended return policy for in-store pickup",
+      "EZ+ Rewards program",
+      "Multiple pawn shop brands under one platform"
+    ]
+  },
+  "user_experience_patterns": {
+    "location_first_approach": "Emphasizes finding local inventory",
+    "trust_building": "Quality assurance messaging and return policy",
+    "inventory_transparency": "Shows exact item counts per location",
+    "mobile_responsive": "Responsive design for mobile shopping"
+  }
+}
